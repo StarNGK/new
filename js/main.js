@@ -241,7 +241,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change1").html("StarCloud 网址https://user.starn.vip");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
