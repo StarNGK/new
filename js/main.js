@@ -155,6 +155,11 @@ $("#social").mouseover(function () {
     });
 });
 
+$("#StarCloud").mouseover(function () {
+    $("#link-text").html("前往StarCloud官网");
+}).mouseout(function () {
+    $("#link-text").html("前往StarCloud官网");
+});
 $("#github").mouseover(function () {
     $("#link-text").html("去 Github 看看");
 }).mouseout(function () {
