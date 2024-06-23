@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
         iziToast.show({
             timeout: 2500,
             title: hello,
-            message: '欢迎来到我的主页'
+            message: '欢迎来到StarCloud'
         });
     }, 800);
 }, false)
@@ -160,22 +160,12 @@ $("#github").mouseover(function () {
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
-$("#qq").mouseover(function () {
-    $("#link-text").html("有什么事吗");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
 $("#email").mouseover(function () {
     $("#link-text").html("来封 Email");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#telegram").mouseover(function () {
-    $("#link-text").html("你懂的 ~");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#twitter").mouseover(function () {
     $("#link-text").html("你懂的 ~");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
@@ -191,8 +181,8 @@ $('#switchmore').on('click', function () {
         $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
     } else {
         $('#container').attr('class', 'container');
-        $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change").html("Hello&nbsp;!");
+        $("#change1").html("StarCloud 网址https://user.starn.vip");
     }
 });
 
@@ -240,7 +230,7 @@ window.addEventListener('load', function () {
         if (window.innerWidth <= 990) {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
-            $("#change").html("Hello&nbsp;World&nbsp;!");
+            $("#change").html("Hello&nbsp;!");
             $("#change1").html("StarCloud 网址https://user.starn.vip");
 
             //移动端隐藏弹窗页面
