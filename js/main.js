@@ -187,7 +187,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;!");
-        $("#change1").html("StarCloud 网址https://user.starn.vip");
+        $("#change1").html("StarCloud 网址https://user.starm.cc");
     }
 });
 
@@ -236,7 +236,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;!");
-            $("#change1").html("StarCloud 网址https://user.starn.vip");
+            $("#change1").html("StarCloud 网址https://user.starm.cc");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
